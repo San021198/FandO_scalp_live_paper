@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\Aarthi\Desktop\AI_FO_Scalper_V2_1\android\app"
+    name=":app"
+    type="APP"
+    maven="AIScalper:app:unspecified"
+    agpVersion="8.8.2"
+    buildFolder="build"
+    bootClassPath="C:\Users\Aarthi\AppData\Local\Android\Sdk\platforms\android-35\android.jar;C:\Users\Aarthi\AppData\Local\Android\Sdk\build-tools\35.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

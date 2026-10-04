@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.8.2" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.15.0 is available: 1.19.1">
+        <fix-replace
+            description="Change to 1.19.1"
+            family="Update versions"
+            oldString="1.15.0"
+            replacement="1.19.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="28"
+            column="20"
+            startOffset="622"
+            endLine="28"
+            endColumn="51"
+            endOffset="653"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.10.1 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.10.1"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="29"
+            column="20"
+            startOffset="674"
+            endLine="29"
+            endColumn="63"
+            endOffset="717"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2025.01.00 is available: 2026.09.00">
+        <fix-replace
+            description="Change to 2026.09.00"
+            family="Update versions"
+            oldString="2025.01.00"
+            replacement="2026.09.00"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="30"
+            column="20"
+            startOffset="738"
+            endLine="30"
+            endColumn="71"
+            endOffset="789"/>
+    </incident>
+
+</incidents>

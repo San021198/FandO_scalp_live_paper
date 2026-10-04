@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.8.2" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.aiscalper.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.color.black"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="1"
+            column="19"
+            startOffset="18"
+            endLine="1"
+            endColumn="31"
+            endOffset="30"/>
+        <location id="R.color.white"
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="1"
+            column="54"
+            startOffset="53"
+            endLine="1"
+            endColumn="66"
+            endOffset="65"/>
+        <entry
+            name="model"
+            string="color[black(D),white(D)],style[AppTheme(U)];;;;"/>
+    </map>
+
+</incidents>

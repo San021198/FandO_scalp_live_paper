@@ -1,0 +1,7 @@
+#Sun Oct 04 12:47:37 IST 2026
+base.0=C\:\\Users\\Aarthi\\Desktop\\AI_FO_Scalper_V2_1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=C\:\\Users\\Aarthi\\Desktop\\AI_FO_Scalper_V2_1\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

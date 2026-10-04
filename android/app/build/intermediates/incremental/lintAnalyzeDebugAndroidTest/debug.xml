@@ -1,0 +1,30 @@
+<variant
+    name="debug"
+    package="com.example.aiscalper"
+    minSdkVersion="26"
+    targetSdkVersion="35"
+    debuggable="true"
+    mergedManifest="build\intermediates\merged_manifest\debug\processDebugMainManifest\AndroidManifest.xml"
+    partialResultsDir="build\intermediates\android_test_lint_partial_results\debug\lintAnalyzeDebugAndroidTest\out"
+    desugaredMethodsFiles="C:\Users\Aarthi\.gradle\caches\9.7.1\transforms\7f9228077f1a7edd21e66c09eaa1d533\transformed\D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+  </sourceProviders>
+  <testSourceProviders>
+    <sourceProvider
+        manifests="src\androidTest\AndroidManifest.xml"
+        javaDirectories="src\androidTest\java;src\androidTestDebug\java;src\androidTest\kotlin;src\androidTestDebug\kotlin"
+        resDirectories="src\androidTest\res;src\androidTestDebug\res"
+        assetsDirectories="src\androidTest\assets;src\androidTestDebug\assets"
+        androidTest="true"/>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      type="INSTRUMENTATION_TEST"
+      applicationId="com.example.aiscalper.test"
+      generatedResourceFolders="build\generated\res\resValues\androidTest\debug"
+      desugaredMethodsFiles="C:\Users\Aarthi\.gradle\caches\9.7.1\transforms\7f9228077f1a7edd21e66c09eaa1d533\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>
